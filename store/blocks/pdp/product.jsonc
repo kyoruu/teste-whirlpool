@@ -99,11 +99,11 @@
       "rowGap": 0
     },
     "children": [
+      "countdown",
       "flex-layout.row#product-name",
      //"product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "countdown",
       "product-installments",
       "product-separator",
       "product-identifier.product",

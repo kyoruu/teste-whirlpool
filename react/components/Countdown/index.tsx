@@ -61,7 +61,7 @@ interface Props {
 }
 
 const Countdown: ComponentWithSchema<Props, CountdownSchema> = ({
-  endDate = '11/24/2022 23:59:59',
+  endDate = '08/30/2024 23:59:59',
   text,
   title,
   banner,
