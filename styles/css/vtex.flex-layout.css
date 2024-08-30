@@ -19,27 +19,35 @@
 
 .flexRowContent--menu-link {
   background-color: #03044e;
-  color: #fff;
-}
-
-.flexRowContent--main-header {
-  background-color: #f0f0f0;
+  color: #000;
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #122137;
 }
 
-.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
-  font-size: 14px;
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+    color: #fff;
+    background: #122137;
+    font-size: 14px;
+  }
+  
+  .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+    color: #fff;
+    font-size: 18px;
+  }
 }
 
-.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
-  font-size: 14px;
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink):hover {
+  color: #FFC346;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-submenuWrapper){
+  background: #122137;
+  min-width: 200px;
 }
 
 .flexRow--deals {
@@ -95,4 +103,47 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRow--productSpecificationGroup .flexRowContent--productSpecificationGroup{
+    max-width: 40%;
+  }
+}
+
+.flexRowContent--buy-button-container :global(.vtex-button){
+  background-color: #ff5000;
+  background-color: #ff5000;
+  border-radius: 0;
+  border: none;
+  text-transform: unset;
+  font-weight: 700;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+}
+
+
+:global(.vtex-shelf-1-x-shelfContentContainer)  :global(.vtex-button){
+  background-color: #ff5000;
+  background-color: #ff5000;
+  border-radius: 0;
+  border: none;
+  text-transform: unset;
+  font-weight: 700;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+:global(.vtex-shelf-1-x-arrow){
+  color: #ff5000
+}
+
+:global(.vtex-shelf-1-x-dot--isActive){
+  background-color: #ff5000;
+}
+
+.flexRowContent--buy-button-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+justify-content: left;
 }

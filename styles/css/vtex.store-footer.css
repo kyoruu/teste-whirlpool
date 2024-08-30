@@ -9,3 +9,22 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.footerLayout {
+  background-color: #122137;
+
+}
+.footerLayoutSpacer {
+  background-color: #122137;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer), .footerLayout :global(.vtex-menu-2-x-styledLinkContent){
+  color: #fff;
+}  
+
+@media screen and (min-width: 80rem) {
+  :global(.vtex-menu-2-x-styledLinkContent),
+  :global(.vtex-rich-text-0-x-paragraph--footer){
+    color: #fff;
+  }  
+}

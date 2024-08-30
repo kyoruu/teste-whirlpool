@@ -7,6 +7,27 @@
   :global(.vtex-store-components-3-x-searchBarContainer) {
   transition: all 0.3s ease;
   display: block;
+  border-radius: 0;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  border-radius: 0;
+}
+
+:global(.vtex-login-2-x-container) {
+  padding-left: 20px;
+}
+
+:global(.vtex-login-2-x-container):hover :global(.vtex-login-2-x-label) {
+  color: #000;
+}
+:global(.vtex-store-drawer-0-x-openIconContainer){
+  color: #fff;
+}
+
+:global(.vtex-login-2-x-container) :global(.vtex-login-2-x-label){
+  padding: 0;
+  color: #fff;
 }
 
 /* desktop/mobile main header padding and background transitions */
@@ -41,27 +62,16 @@
   padding-bottom: 0;
 }
 
-/* if supported add some translucency to the desktop/mobile header background */
-@supports (backdrop-filter: blur(5px)) {
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
-    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
-    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    backdrop-filter: blur(8px);
-  }
-
-  /* header background when stuck and not hovered */
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
-    :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
-    :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: rgba(240, 240, 240, 0.8);
-  }
-}
-
 /* stick wrapper with the same color as the desktop/mobile header */
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-  background-color: #f0f0f0;
+  background-color: #122137;
+  display: flex;
+  justify-content: center;
+  height: 70%;
+}
+
+:global(.vtex-sticky-layout-0-x-container){
+  background-color: #122137;
 }
 
 /* resize the logo for neat effect */

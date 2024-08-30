@@ -19,8 +19,8 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
       }
     },
     "blocks": [
@@ -55,8 +55,8 @@
         "type": "internal",
         "href": "/apparel---accessories/clothing/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Menu 1",
+        "text": "Menu 1"
       }
     }
   },
@@ -70,8 +70,8 @@
         "type": "internal",
         "href": "/apparel---accessories/accessories/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Menu 2",
+        "text": "Menu 2"
       }
     }
   },
@@ -85,8 +85,8 @@
         "type": "internal",
         "href": "/apparel---accessories/eyeglasses/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Menu 3",
+        "text": "Menu 3"
       }
     }
   },
@@ -100,8 +100,8 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
       }
     }
   },
@@ -116,7 +116,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "More",
-        "text": "More"
+        "text": "Menu banner"
       }
     },
     "blocks": [
@@ -167,7 +167,7 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "About us"
+        "text": "Link"
       }
     }
   },

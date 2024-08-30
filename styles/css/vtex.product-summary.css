@@ -40,3 +40,8 @@
 .image {
   border-radius: 0.25rem;
 }
+
+:global(.vtex-store-components-3-x-swiperCaretNext), :global(.vtex-store-components-3-x-swiperCaretPrev),
+:global(.vtex-store-components-3-x-swiperBullet--active){
+  color: #ff5000;
+}

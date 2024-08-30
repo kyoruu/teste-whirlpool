@@ -79,10 +79,7 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "imageUrl": "https://brastemp.vtexassets.com/assets/vtex.file-manager-graphql/images/1a0faa04-24a3-44d4-a05a-00f6779e152b___533d748faadf2c7ff2cd1c6a68da058c.png",
       "blockClass": "info-card-home",
       "textAlignment": "center"
     }

@@ -7,8 +7,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+      //"flex-layout.row#1-desktop",
+     // "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -59,7 +59,7 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+    //  "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -80,9 +80,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "https://www.whirlpool.com.br/wp-content/themes/whirlpool/styles/images/logo2.png",
+      "width": "180"
     }
   },
   "header-layout.mobile": {
@@ -110,6 +109,12 @@
     "children": ["menu#drawer"]
   },
 
+  "login":{
+    "props": {
+      "showIconProfile": true
+    }
+  },
+
   "menu#drawer": {
     "children": [
       "menu-item#category-apparel",
@@ -125,7 +130,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://www.whirlpool.com.br/wp-content/themes/whirlpool/styles/images/logo2.png",
       "width": "77.5",
       "height": "27.5"
     }

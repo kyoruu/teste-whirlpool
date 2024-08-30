@@ -9,8 +9,12 @@
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background: none;
   padding: 0px;
+}
+
+.infoCardContainer--info-card-home :global(.vtex-store-components-3-x-infoCardTextContainer){
+  display: none;
 }
 
 .newsletter {
@@ -63,6 +67,10 @@
 
 .skuSelectorContainer {
   margin: 1rem 0;
+}
+
+.skuSelectorItem--selected .frameAround{
+  border-color: #ff5000
 }
 
 @media only screen and (min-width: 640px) {
