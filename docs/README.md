@@ -1,3 +1,16 @@
+# Como rodar o projeto
+Após abrir o projeto, digite os comandos de login vtex no seu terminal
+
+vtex login <seu usuario>
+vtex use <nome do seu workspace>
+vtex link
+
+Logue na sua conta VTEX e acesse algum produto para ver a página customizada do projeto
+
+Também utilize o comando "yarn run sass" em outro terminal
+
+Para mais informações:
+
 # Store theme
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
