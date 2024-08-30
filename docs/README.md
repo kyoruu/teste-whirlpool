@@ -2,7 +2,9 @@
 Após abrir o projeto, digite os comandos de login vtex no seu terminal
 
 vtex login + seu usuario
+
 vtex use + nome da sua workspace
+
 vtex link
 
 Logue na sua conta VTEX e acesse algum produto para ver a página customizada do projeto
